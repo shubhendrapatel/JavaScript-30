@@ -1,0 +1,58 @@
+body{
+    /* reset stylsheet*/
+    padding: 0;
+    margin: 0;
+    
+    /* apply custom stylesheet */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: antiquewhite;
+    background-color: #FF851B;
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+}
+
+.error-msg{
+    color: red;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.error-msg.show{
+    opacity: 1;
+}
+
+.key{
+    display: inline-flex;
+    height: 4em;
+    width: 4em;
+    
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5em;
+
+    background-color: #85144b;
+    border: 0px;
+
+    transition: all 0.3s;
+}
+
+.key:not(:last-child){
+    margin-right: 5px;
+}
+
+.key.playing{
+    transform: scale(1.1);
+
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    border: 1px solid #0074D9;
+}
