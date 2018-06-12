@@ -1,4 +1,5 @@
 source code of [30 Day JavaScript challenge](https://javascript30.com/) by [*Wesbos*](https://wesbos.com/), Which I've been doing. Code and design is not exactaly same but source problem is same.
+visit this [link](https://shubhendrapatel.github.io/JavaScript-30-day-challenge/) for showcase.
 
 - [x] Day 1
 - [ ] Day 2

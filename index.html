@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Display | JavaScript 30 </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body style="text-align: center;">
+        <div class="w3-card w3-blue" style="height: 30%;">
+            <h1 style="margin: 0;">JavaScript 30 | Showcase</h1>
+        </div>
+        
+        <div id="container" class="w3-bar-block w3-black w3-card w3-green" style="transform:translateY(-30px);width:75%;display: inline-block;"></div>
+        
+        <script>
+            var xmlHttp = new XMLHttpRequest(),
+                container = document.getElementById("container");
+
+            xmlHttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    this.parsedData = JSON.parse(this.responseText);
+
+                    // creeate an anchor tag and appen to dom(container)
+                    this.parsedData.demoList.forEach((name, index) => {
+                       let anchor = document.createElement("a");
+                            anchor.setAttribute("href","day "+(++index));
+                            anchor.innerHTML = name;
+                            anchor.classList.add("w3-bar-item");
+                            anchor.classList.add("w3-button");
+                            anchor.classList.add("w3-hover-orange");
+                            
+                        container.appendChild(anchor);
+                    });
+                }
+            };
+
+            xmlHttp.open("GET", "task_completed.json", true);
+            xmlHttp.send();
+        </script>
+    </body>
+</html>
