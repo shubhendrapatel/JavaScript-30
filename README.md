@@ -1,33 +1,14 @@
-source code of [30 Day JavaScript challenge](https://javascript30.com/) by [*Wesbos*](https://wesbos.com/), Which I've been doing. Code and design is not exactaly same but source problem is same.
-visit this [link](https://shubhendrapatel.github.io/JavaScript-30-day-challenge/) for showcase.
-
-- [x] Day 1
-- [ ] Day 2
-- [ ] Day 3
-- [ ] Day 4
-- [ ] Day 5
-- [ ] Day 6
-- [ ] Day 7
-- [ ] Day 8
-- [ ] Day 9
-- [ ] Day 10
-- [ ] Day 11
-- [ ] Day 12
-- [ ] Day 13
-- [ ] Day 14
-- [ ] Day 15
-- [ ] Day 16
-- [ ] Day 17
-- [ ] Day 18
-- [ ] Day 19
-- [ ] Day 20
-- [ ] Day 21
-- [ ] Day 22
-- [ ] Day 23
-- [ ] Day 24
-- [ ] Day 25
-- [ ] Day 26
-- [ ] Day 27
-- [ ] Day 28
-- [ ] Day 29
-- [ ] Day 30
+source code of [30 JavaScript challenge](https://javascript30.com/) by [*Wesbos*](https://wesbos.com/), Which I've been doing. Code and design is not exactaly same but source problem is same.
+visit this [link](https://github.com/wesbos/JavaScript30) for showcase.
+| Row 1  | Row2 | Row3 |
+| ------------- | ------------- |-------------|
+- [x] Challange 1 | - [ ] Challange 11 | - [ ] Challange 21
+- [ ] Challange 2 | - [ ] Challange 12 | - [ ] Challange 22
+- [ ] Challange 3 | - [ ] Challange 13 | - [ ] Challange 23
+- [ ] Challange 4 | - [ ] Challange 14 | - [ ] Challange 24
+- [ ] Challange 5 | - [ ] Challange 15 | - [ ] Challange 25
+- [ ] Challange 6 | - [ ] Challange 16 | - [ ] Challange 26
+- [ ] Challange 7 | - [ ] Challange 17 | - [ ] Challange 27
+- [ ] Challange 8 | - [ ] Challange 18 | - [ ] Challange 28
+- [ ] Challange 9 | - [ ] Challange 19 | - [ ] Challange 29
+- [ ] Challange 10 | - [ ] Challange 20 | - [ ] Challange 30

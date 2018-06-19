@@ -10,7 +10,7 @@
             <h1 style="margin: 0;">JavaScript 30 | Showcase</h1>
         </div>
         
-        <div id="container" class="w3-bar-block w3-black w3-card w3-green" style="transform:translateY(-30px);width:75%;display: inline-block;"></div>
+        <div id="container" class="w3-bar-block w3-black w3-card w3-green" style="transform:translateY(-30px);width:500px;display: inline-block;"></div>
         
         <script>
             var xmlHttp = new XMLHttpRequest(),
@@ -21,10 +21,10 @@
                     this.parsedData = JSON.parse(this.responseText);
 
                     // creeate an anchor tag and appen to dom(container)
-                    this.parsedData.demoList.forEach((name, index) => {
+                    this.parsedData.demoList.forEach((project, index) => {
                        let anchor = document.createElement("a");
-                            anchor.setAttribute("href","day "+(++index));
-                            anchor.innerHTML = name;
+                            anchor.setAttribute("href",project.location);
+                            anchor.innerHTML = project.title;
                             anchor.classList.add("w3-bar-item");
                             anchor.classList.add("w3-button");
                             anchor.classList.add("w3-hover-orange");

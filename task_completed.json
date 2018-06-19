@@ -1,3 +1,8 @@
 {
-    "demoList" : ["Piono player(day1)"]
+    "demoList": [
+        {
+            "title": "Piono player",
+            "location": "challange 1 JS Piano"
+        }
+    ]
 }
