@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'ManyLand';
+    src: url('/Manyland.otf');
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    background: radial-gradient(circle, #537895 21%, #09203f 100%);
+    color: white;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'ManyLand';
+    letter-spacing: 10px;
+}
+
+.clock {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid #051e3e;
+    background: #e7eff6;
+    box-shadow: 0 0 5px 2px #051e3e;
+
+    position: relative;
+}
+
+.clock::before {
+    content: '';
+
+    width: 5px;
+    height: 5px;
+
+    border-radius: 50%;
+
+    background-color: black;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#second-hand {
+    height: 70px;
+    width: 1px;
+    background: #cc2a36;
+
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    z-index: 1;
+
+    transform: translateX(-50%);
+    transform-origin: bottom;
+}
+
+#minute-hand {
+    height: 60px;
+    width: 2px;
+    background: #edc951;
+
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    z-index: 1;
+
+    transform: translateX(-50%);
+    transform-origin: bottom;
+}
+
+#hour-hand {
+    height: 50px;
+    width: 3px;
+    background: #00a0b0;
+
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    z-index: 1;
+
+    transform: translateX(-50%);
+    transform-origin: bottom;
+
+}
+
+.numbers span {
+    position: absolute;
+    z-index: 0;
+
+    color: black;
+}
+
+.numbers span:nth-child(1) {
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+.numbers span:nth-child(2) {
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.numbers span:nth-child(3) {
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.numbers span:nth-child(4) {
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

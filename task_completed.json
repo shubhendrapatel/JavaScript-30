@@ -2,7 +2,11 @@
     "demoList": [
         {
             "title": "Piono player",
-            "location": "challange 1 JS Piano"
+            "location": "challang-1-JS-Piano"
+        },
+        {
+            "title": "The Clock",
+            "location": "challange-2-Clock"
         }
     ]
 }
