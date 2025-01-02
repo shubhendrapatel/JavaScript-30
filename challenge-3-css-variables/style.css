@@ -1,0 +1,35 @@
+:root {
+    --base-color: #07a872;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    background: radial-gradient(circle, #9b1414 21%, #09203f 100%);
+    color: white;
+}
+
+h1 .js {
+    color: var(--base-color);
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+img {
+    padding: var(--spacing);
+    background-color: var(--base-color);
+    filter: blur(var(--blur));
+}

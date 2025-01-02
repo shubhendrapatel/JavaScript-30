@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Blur The Image</title>
+  </head>
+  <body>
+    <h1>Update CSS variables with <span class="js">JS</span></h1>
+
+    <div class="controls">
+      <label for="spacing">Spacing:</label>
+      <input
+        type="range"
+        value="10"
+        max="200"
+        data-sizing="px"
+        name="spacing"
+      />
+
+      <label for="blur">Blur:</label>
+      <input type="range" value="10" max="200" data-sizing="px" name="blur" />
+
+      <label for="base-color">Base Color</label>
+      <input type="color" name="base-color" value="#07a872" />
+    </div>
+
+    <img src="https://picsum.photos/500/500" alt="dummy image" />
+
+    <script src="script.js"></script>
+  </body>
+</html>
