@@ -7,6 +7,10 @@
         {
             "title": "The Clock",
             "location": "challange-2-Clock"
+        },
+        {
+            "title": "Blur the image",
+            "location": "challenge-3-css-variables"
         }
     ]
 }
