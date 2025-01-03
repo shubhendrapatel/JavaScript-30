@@ -11,6 +11,10 @@
         {
             "title": "Blur the image",
             "location": "challenge-3-css-variables"
+        },
+        {
+            "title": "Array cardio 1",
+            "location": "challenge-4-array-cardio-1"
         }
     ]
 }

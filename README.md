@@ -3,13 +3,13 @@ visit this [link](https://shubhendrapatel.github.io/JavaScript-30/) for showcase
 
 | Row 1         | Row2          | Row3        |
 | ------------- | ------------- |-------------|
-|- [x] Challange 1 | - [ ] Challange 11 | - [ ] Challange 21|
-|- [x] Challange 2 | - [ ] Challange 12 | - [ ] Challange 22|
-|- [x] Challange 3 | - [ ] Challange 13 | - [ ] Challange 23|
-|- [ ] Challange 4 | - [ ] Challange 14 | - [ ] Challange 24|
-|- [ ] Challange 5 | - [ ] Challange 15 | - [ ] Challange 25|
-|- [ ] Challange 6 | - [ ] Challange 16 | - [ ] Challange 26|
-|- [ ] Challange 7 | - [ ] Challange 17 | - [ ] Challange 27|
-|- [ ] Challange 8 | - [ ] Challange 18 | - [ ] Challange 28|
-|- [ ] Challange 9 | - [ ] Challange 19 | - [ ] Challange 29|
-|- [ ] Challange 10 | - [ ] Challange 20 | - [ ] Challange 30|
+|- [x] Challenge 1 | - [ ] Challenge 11 | - [ ] Challenge 21|
+|- [x] Challenge 2 | - [ ] Challenge 12 | - [ ] Challenge 22|
+|- [x] Challenge 3 | - [ ] Challenge 13 | - [ ] Challenge 23|
+|- [x] Challenge 4 | - [ ] Challenge 14 | - [ ] Challenge 24|
+|- [ ] Challenge 5 | - [ ] Challenge 15 | - [ ] Challenge 25|
+|- [ ] Challenge 6 | - [ ] Challenge 16 | - [ ] Challenge 26|
+|- [ ] Challenge 7 | - [ ] Challenge 17 | - [ ] Challenge 27|
+|- [ ] Challenge 8 | - [ ] Challenge 18 | - [ ] Challenge 28|
+|- [ ] Challenge 9 | - [ ] Challenge 19 | - [ ] Challenge 29|
+|- [ ] Challenge 10 | - [ ] Challenge 20 | - [ ] Challenge 30|
