@@ -7,7 +7,7 @@ visit this [link](https://shubhendrapatel.github.io/JavaScript-30/) for showcase
 |- [x] Challenge 2 | - [ ] Challenge 12 | - [ ] Challenge 22|
 |- [x] Challenge 3 | - [ ] Challenge 13 | - [ ] Challenge 23|
 |- [x] Challenge 4 | - [ ] Challenge 14 | - [ ] Challenge 24|
-|- [ ] Challenge 5 | - [ ] Challenge 15 | - [ ] Challenge 25|
+|- [x] Challenge 5 | - [ ] Challenge 15 | - [ ] Challenge 25|
 |- [ ] Challenge 6 | - [ ] Challenge 16 | - [ ] Challenge 26|
 |- [ ] Challenge 7 | - [ ] Challenge 17 | - [ ] Challenge 27|
 |- [ ] Challenge 8 | - [ ] Challenge 18 | - [ ] Challenge 28|

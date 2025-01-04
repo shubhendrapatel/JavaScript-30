@@ -15,6 +15,10 @@
         {
             "title": "Array cardio 1",
             "location": "challenge-4-array-cardio-1"
+        },
+        {
+            "title": "The Gallery",
+            "location": "challenge-5-flex-gallery"
         }
     ]
 }
